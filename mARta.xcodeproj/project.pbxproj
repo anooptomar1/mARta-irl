@@ -14,6 +14,10 @@
 		A78E2D9D1F636CAD00C6AAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78E2D9C1F636CAD00C6AAFB /* Assets.xcassets */; };
 		A78E2DA01F636CAD00C6AAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E2D9E1F636CAD00C6AAFB /* LaunchScreen.storyboard */; };
 		A7E1270B1F63781600E8DA89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7E1270A1F63781500E8DA89 /* GoogleService-Info.plist */; };
+		A7E1270E1F6396E600E8DA89 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E1270D1F6396E600E8DA89 /* Station.swift */; };
+		A7E127101F6399A100E8DA89 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E1270F1F6399A100E8DA89 /* Platform.swift */; };
+		A7E127121F6399AE00E8DA89 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E127111F6399AE00E8DA89 /* Line.swift */; };
+		A7E127141F6399BA00E8DA89 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E127131F6399BA00E8DA89 /* Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		A78E2D9F1F636CAD00C6AAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A78E2DA11F636CAD00C6AAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7E1270A1F63781500E8DA89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7E1270D1F6396E600E8DA89 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		A7E1270F1F6399A100E8DA89 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		A7E127111F6399AE00E8DA89 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		A7E127131F6399BA00E8DA89 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		C69F8945D32586093455A666 /* Pods-mARta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mARta.release.xcconfig"; path = "Pods/Target Support Files/Pods-mARta/Pods-mARta.release.xcconfig"; sourceTree = "<group>"; };
 		D489D2D2BD650B03DC3A40F4 /* Pods-mARta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mARta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mARta/Pods-mARta.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +82,7 @@
 			children = (
 				A78E2D951F636CAD00C6AAFB /* AppDelegate.swift */,
 				A78E2D971F636CAD00C6AAFB /* HomeViewController.swift */,
+				A7E1270C1F63968900E8DA89 /* Models */,
 				A78E2D991F636CAD00C6AAFB /* Main.storyboard */,
 				A78E2D9C1F636CAD00C6AAFB /* Assets.xcassets */,
 				A78E2D9E1F636CAD00C6AAFB /* LaunchScreen.storyboard */,
@@ -81,6 +90,17 @@
 				A7E1270A1F63781500E8DA89 /* GoogleService-Info.plist */,
 			);
 			path = mARta;
+			sourceTree = "<group>";
+		};
+		A7E1270C1F63968900E8DA89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7E1270D1F6396E600E8DA89 /* Station.swift */,
+				A7E1270F1F6399A100E8DA89 /* Platform.swift */,
+				A7E127111F6399AE00E8DA89 /* Line.swift */,
+				A7E127131F6399BA00E8DA89 /* Feature.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CF96B35467C47E391C3955B4 /* Frameworks */ = {
@@ -215,8 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E127141F6399BA00E8DA89 /* Feature.swift in Sources */,
 				A78E2D981F636CAD00C6AAFB /* HomeViewController.swift in Sources */,
+				A7E1270E1F6396E600E8DA89 /* Station.swift in Sources */,
+				A7E127101F6399A100E8DA89 /* Platform.swift in Sources */,
 				A78E2D961F636CAD00C6AAFB /* AppDelegate.swift in Sources */,
+				A7E127121F6399AE00E8DA89 /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
