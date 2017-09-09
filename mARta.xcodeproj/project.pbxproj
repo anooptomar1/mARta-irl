@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1C43E01A4CF19E4558DC8E60 /* Pods_mARta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE0E28E6DB8348F4AD7D613 /* Pods_mARta.framework */; };
 		A78E2D961F636CAD00C6AAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E2D951F636CAD00C6AAFB /* AppDelegate.swift */; };
-		A78E2D981F636CAD00C6AAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E2D971F636CAD00C6AAFB /* ViewController.swift */; };
+		A78E2D981F636CAD00C6AAFB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E2D971F636CAD00C6AAFB /* HomeViewController.swift */; };
 		A78E2D9B1F636CAD00C6AAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E2D991F636CAD00C6AAFB /* Main.storyboard */; };
 		A78E2D9D1F636CAD00C6AAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78E2D9C1F636CAD00C6AAFB /* Assets.xcassets */; };
 		A78E2DA01F636CAD00C6AAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E2D9E1F636CAD00C6AAFB /* LaunchScreen.storyboard */; };
+		A7E1270B1F63781600E8DA89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7E1270A1F63781500E8DA89 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DE0E28E6DB8348F4AD7D613 /* Pods_mARta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mARta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78E2D921F636CAD00C6AAFB /* mARta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mARta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78E2D951F636CAD00C6AAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A78E2D971F636CAD00C6AAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A78E2D971F636CAD00C6AAFB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A78E2D9A1F636CAD00C6AAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A78E2D9C1F636CAD00C6AAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A78E2D9F1F636CAD00C6AAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A78E2DA11F636CAD00C6AAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E1270A1F63781500E8DA89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C69F8945D32586093455A666 /* Pods-mARta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mARta.release.xcconfig"; path = "Pods/Target Support Files/Pods-mARta/Pods-mARta.release.xcconfig"; sourceTree = "<group>"; };
 		D489D2D2BD650B03DC3A40F4 /* Pods-mARta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mARta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mARta/Pods-mARta.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,11 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				A78E2D951F636CAD00C6AAFB /* AppDelegate.swift */,
-				A78E2D971F636CAD00C6AAFB /* ViewController.swift */,
+				A78E2D971F636CAD00C6AAFB /* HomeViewController.swift */,
 				A78E2D991F636CAD00C6AAFB /* Main.storyboard */,
 				A78E2D9C1F636CAD00C6AAFB /* Assets.xcassets */,
 				A78E2D9E1F636CAD00C6AAFB /* LaunchScreen.storyboard */,
 				A78E2DA11F636CAD00C6AAFB /* Info.plist */,
+				A7E1270A1F63781500E8DA89 /* GoogleService-Info.plist */,
 			);
 			path = mARta;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A78E2DA01F636CAD00C6AAFB /* LaunchScreen.storyboard in Resources */,
+				A7E1270B1F63781600E8DA89 /* GoogleService-Info.plist in Resources */,
 				A78E2D9D1F636CAD00C6AAFB /* Assets.xcassets in Resources */,
 				A78E2D9B1F636CAD00C6AAFB /* Main.storyboard in Resources */,
 			);
@@ -211,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A78E2D981F636CAD00C6AAFB /* ViewController.swift in Sources */,
+				A78E2D981F636CAD00C6AAFB /* HomeViewController.swift in Sources */,
 				A78E2D961F636CAD00C6AAFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +358,7 @@
 				DEVELOPMENT_TEAM = S39ED6M3WP;
 				INFOPLIST_FILE = mARta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = marta.mARta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marta.irl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,7 +374,7 @@
 				DEVELOPMENT_TEAM = S39ED6M3WP;
 				INFOPLIST_FILE = mARta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = marta.mARta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marta.irl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
