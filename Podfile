@@ -7,5 +7,6 @@ target 'mARta' do
 
   # Pods for mARta
   pod 'ARCL'
+  pod 'Firebase/Database'
 
 end
