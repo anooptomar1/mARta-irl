@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C43E01A4CF19E4558DC8E60 /* Pods_mARta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE0E28E6DB8348F4AD7D613 /* Pods_mARta.framework */; };
+		A78E2D961F636CAD00C6AAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E2D951F636CAD00C6AAFB /* AppDelegate.swift */; };
+		A78E2D981F636CAD00C6AAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E2D971F636CAD00C6AAFB /* ViewController.swift */; };
+		A78E2D9B1F636CAD00C6AAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E2D991F636CAD00C6AAFB /* Main.storyboard */; };
+		A78E2D9D1F636CAD00C6AAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78E2D9C1F636CAD00C6AAFB /* Assets.xcassets */; };
+		A78E2DA01F636CAD00C6AAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E2D9E1F636CAD00C6AAFB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DE0E28E6DB8348F4AD7D613 /* Pods_mARta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mARta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E2D921F636CAD00C6AAFB /* mARta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mARta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E2D951F636CAD00C6AAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A78E2D971F636CAD00C6AAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A78E2D9A1F636CAD00C6AAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A78E2D9C1F636CAD00C6AAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A78E2D9F1F636CAD00C6AAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A78E2DA11F636CAD00C6AAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69F8945D32586093455A666 /* Pods-mARta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mARta.release.xcconfig"; path = "Pods/Target Support Files/Pods-mARta/Pods-mARta.release.xcconfig"; sourceTree = "<group>"; };
+		D489D2D2BD650B03DC3A40F4 /* Pods-mARta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mARta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mARta/Pods-mARta.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78E2D8F1F636CAD00C6AAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C43E01A4CF19E4558DC8E60 /* Pods_mARta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72115094250D1085BF929DD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D489D2D2BD650B03DC3A40F4 /* Pods-mARta.debug.xcconfig */,
+				C69F8945D32586093455A666 /* Pods-mARta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A78E2D891F636CAD00C6AAFB = {
+			isa = PBXGroup;
+			children = (
+				A78E2D941F636CAD00C6AAFB /* mARta */,
+				A78E2D931F636CAD00C6AAFB /* Products */,
+				72115094250D1085BF929DD0 /* Pods */,
+				CF96B35467C47E391C3955B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A78E2D931F636CAD00C6AAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78E2D921F636CAD00C6AAFB /* mARta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78E2D941F636CAD00C6AAFB /* mARta */ = {
+			isa = PBXGroup;
+			children = (
+				A78E2D951F636CAD00C6AAFB /* AppDelegate.swift */,
+				A78E2D971F636CAD00C6AAFB /* ViewController.swift */,
+				A78E2D991F636CAD00C6AAFB /* Main.storyboard */,
+				A78E2D9C1F636CAD00C6AAFB /* Assets.xcassets */,
+				A78E2D9E1F636CAD00C6AAFB /* LaunchScreen.storyboard */,
+				A78E2DA11F636CAD00C6AAFB /* Info.plist */,
+			);
+			path = mARta;
+			sourceTree = "<group>";
+		};
+		CF96B35467C47E391C3955B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DE0E28E6DB8348F4AD7D613 /* Pods_mARta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78E2D911F636CAD00C6AAFB /* mARta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78E2DA41F636CAD00C6AAFB /* Build configuration list for PBXNativeTarget "mARta" */;
+			buildPhases = (
+				8618141234F62561E0F599B3 /* [CP] Check Pods Manifest.lock */,
+				A78E2D8E1F636CAD00C6AAFB /* Sources */,
+				A78E2D8F1F636CAD00C6AAFB /* Frameworks */,
+				A78E2D901F636CAD00C6AAFB /* Resources */,
+				7E6F057EDE823E3930303B11 /* [CP] Embed Pods Frameworks */,
+				75CB209D4E9D972C5EADEB61 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mARta;
+			productName = mARta;
+			productReference = A78E2D921F636CAD00C6AAFB /* mARta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78E2D8A1F636CAD00C6AAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Marta;
+				TargetAttributes = {
+					A78E2D911F636CAD00C6AAFB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A78E2D8D1F636CAD00C6AAFB /* Build configuration list for PBXProject "mARta" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78E2D891F636CAD00C6AAFB;
+			productRefGroup = A78E2D931F636CAD00C6AAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78E2D911F636CAD00C6AAFB /* mARta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78E2D901F636CAD00C6AAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E2DA01F636CAD00C6AAFB /* LaunchScreen.storyboard in Resources */,
+				A78E2D9D1F636CAD00C6AAFB /* Assets.xcassets in Resources */,
+				A78E2D9B1F636CAD00C6AAFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75CB209D4E9D972C5EADEB61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mARta/Pods-mARta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6F057EDE823E3930303B11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mARta/Pods-mARta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8618141234F62561E0F599B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78E2D8E1F636CAD00C6AAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E2D981F636CAD00C6AAFB /* ViewController.swift in Sources */,
+				A78E2D961F636CAD00C6AAFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A78E2D991F636CAD00C6AAFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78E2D9A1F636CAD00C6AAFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A78E2D9E1F636CAD00C6AAFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78E2D9F1F636CAD00C6AAFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78E2DA21F636CAD00C6AAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A78E2DA31F636CAD00C6AAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78E2DA51F636CAD00C6AAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D489D2D2BD650B03DC3A40F4 /* Pods-mARta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S39ED6M3WP;
+				INFOPLIST_FILE = mARta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = marta.mARta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A78E2DA61F636CAD00C6AAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69F8945D32586093455A666 /* Pods-mARta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S39ED6M3WP;
+				INFOPLIST_FILE = mARta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = marta.mARta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78E2D8D1F636CAD00C6AAFB /* Build configuration list for PBXProject "mARta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E2DA21F636CAD00C6AAFB /* Debug */,
+				A78E2DA31F636CAD00C6AAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78E2DA41F636CAD00C6AAFB /* Build configuration list for PBXNativeTarget "mARta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E2DA51F636CAD00C6AAFB /* Debug */,
+				A78E2DA61F636CAD00C6AAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78E2D8A1F636CAD00C6AAFB /* Project object */;
+}
